@@ -11,9 +11,22 @@ C++을 중심으로 게임 클라이언트 개발을 공부하고 있습니다. 
 
 | 프로젝트 | 형태 · 기술 | 주요 구현 및 담당 업무 |
 | --- | --- | --- |
+| [Lies of P](https://github.com/hyeons820/DX11_LiesOfP_Team_Portfolio#readme) | 팀 · C++ / DirectX 11 | 애니메이션 에디터·Animator, UI 에디터·런타임, HUD·장비·대화 UI 연동 |
 | [Zenless Zone Zero](https://github.com/hyeons820/DX11_ZenlessZoneZero_Portfolio#readme) | 개인 · C++ / DirectX 11 | 맵·내비게이션 에디터, 캐릭터 애니메이션·전투, 카메라 연출, 툰 셰이딩 |
 | [Dave the Diver](https://github.com/hyeons820/DX9_DaveTheDiver_Team_Portfolio#readme) | 4인 팀 · C++ / DirectX 9 | 맵 제작, 잠수맵 ESC 인벤토리, 초밥집 운영·일부 UI |
 | [Cuphead](https://github.com/hyeons820/WinAPI_Cuphead_Portfolio#readme) | 개인 · C++ / WinAPI | 플레이어 액션, 보스·런 앤 건, 씬 간 데이터 연동, 상점·인벤토리 |
+
+## Lies of P
+
+**애니메이션·UI 제작 도구와 런타임을 담당한 DirectX 11 팀 프로젝트**
+
+에디터에서 만든 애니메이션 설정과 UI 에셋을 실제 캐릭터 동작과 게임 화면에 연결했습니다.
+
+- **애니메이션 에디터·Animator:** 클립·시퀀스·프레임 이벤트 편집과 프리뷰, 상태 전환·블렌딩·루트 모션·본 마스크와 가산 레이어를 구현했습니다.
+- **UI 에디터·런타임:** 계층·속성 편집과 UI 애니메이션, 에셋 저장·검증, BindingKey 연결, 실행 객체의 수명과 입력 소유권 관리를 구현했습니다.
+- **게임 UI 연동:** HUD, 장비·코스튬 미리보기, 리전 암, NPC 대화·상점·별바라기, 로딩·팝업 화면을 게임 데이터와 연결했습니다. 인벤토리 등 팀 공용 시스템에서는 UI 연동과 필요한 일부 수정을 담당했습니다.
+
+[**상세 포트폴리오 보기 →**](https://github.com/hyeons820/DX11_LiesOfP_Team_Portfolio#readme) · [전체 시연 영상](https://youtu.be/_5pHLyo4vUw)
 
 ## Zenless Zone Zero
 
